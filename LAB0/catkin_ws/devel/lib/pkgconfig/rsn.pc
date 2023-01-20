@@ -1,0 +1,8 @@
+prefix=/home/cracker/EECE5554/LAB0/catkin_ws/devel
+
+Name: rsn
+Description: Description of rsn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
