@@ -46,6 +46,7 @@ while 1:
 			Data.Letter = daata[3]
 			print(Data)
 			publish.publish(Data)
+			print("......")
 		else :
 			pass
 		
