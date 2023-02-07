@@ -27,7 +27,7 @@ while 1:
 			Data.Header.stamp.secs = int(tssec)
 			tsnsec = float(ts[7:])*10e6
 			Data.Header.stamp.nsecs = int(tsnsec)
-			Data.Header.frame_id = 'GPS1_Frame'
+			Data.Header.frame_id = 'GPS1_FRAME'
 			
 			latitude = splitline[2]
 			longitude = splitline[4]
