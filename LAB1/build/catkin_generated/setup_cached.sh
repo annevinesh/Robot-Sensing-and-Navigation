@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/cracker/EECE5554/LAB1/build'
+export PWD='/home/cracker/Desktop/Structure_Checker/EECE5554/LAB1/build'

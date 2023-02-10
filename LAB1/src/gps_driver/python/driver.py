@@ -12,8 +12,7 @@ data = serial.Serial(port=port, baudrate=4800, timeout=5)
 publish = rospy.Publisher('/gps',gps_msg,queue_size=10)
 rate = rospy.Rate(10)
 
-#code:
-
+#"code":
 while 1:
 	line = str(data.readline())
 	liner = line.replace('\\r','')
