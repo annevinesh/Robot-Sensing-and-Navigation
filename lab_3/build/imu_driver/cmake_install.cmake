@@ -38,7 +38,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_driver/msg" TYPE FILE FILES "/home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_driver/msg" TYPE FILE FILES "/home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_driver/srv" TYPE FILE FILES "/home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,5 +90,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_driver" TYPE FILE FILES "/home/cracker/EECE5554/lab_3/src/imu_driver/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_driver" TYPE PROGRAM FILES "/home/cracker/EECE5554/lab_3/build/imu_driver/catkin_generated/installspace/driver.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/imu_driver" TYPE PROGRAM FILES "/home/cracker/EECE5554/lab_3/build/imu_driver/catkin_generated/installspace/convert_to_quaternion.py")
 endif()
 

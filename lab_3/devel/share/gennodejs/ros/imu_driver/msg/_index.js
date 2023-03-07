@@ -1,8 +1,8 @@
 
 "use strict";
 
-let imu_msg = require('./imu_msg.js');
+let Vectornav = require('./Vectornav.js');
 
 module.exports = {
-  imu_msg: imu_msg,
+  Vectornav: Vectornav,
 };

@@ -53,24 +53,44 @@ CMAKE_BINARY_DIR = /home/cracker/EECE5554/lab_3/build
 # Include the progress variables for this target.
 include imu_driver/CMakeFiles/imu_driver_generate_messages_py.dir/progress.make
 
-imu_driver/CMakeFiles/imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_imu_msg.py
+imu_driver/CMakeFiles/imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py
+imu_driver/CMakeFiles/imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/_convert_to_quaternion_srv.py
 imu_driver/CMakeFiles/imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/__init__.py
+imu_driver/CMakeFiles/imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/__init__.py
 
 
-/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_imu_msg.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_imu_msg.py: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg
-/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_imu_msg.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG imu_driver/imu_msg"
-	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /opt/ros/noetic/share/sensor_msgs/msg/MagneticField.msg
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /opt/ros/noetic/share/sensor_msgs/msg/Imu.msg
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG imu_driver/Vectornav"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg
+
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/_convert_to_quaternion_srv.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/_convert_to_quaternion_srv.py: /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV imu_driver/convert_to_quaternion_srv"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv
 
 /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/__init__.py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_imu_msg.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for imu_driver"
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/__init__.py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/__init__.py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/_convert_to_quaternion_srv.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for imu_driver"
 	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg --initpy
 
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/__init__.py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py
+/home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/__init__.py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/_convert_to_quaternion_srv.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for imu_driver"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv --initpy
+
 imu_driver_generate_messages_py: imu_driver/CMakeFiles/imu_driver_generate_messages_py
-imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_imu_msg.py
+imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/_Vectornav.py
+imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/_convert_to_quaternion_srv.py
 imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/msg/__init__.py
+imu_driver_generate_messages_py: /home/cracker/EECE5554/lab_3/devel/lib/python3/dist-packages/imu_driver/srv/__init__.py
 imu_driver_generate_messages_py: imu_driver/CMakeFiles/imu_driver_generate_messages_py.dir/build.make
 
 .PHONY : imu_driver_generate_messages_py

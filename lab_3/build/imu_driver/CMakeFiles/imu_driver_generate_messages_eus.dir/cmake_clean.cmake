@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/manifest.l"
-  "/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/imu_msg.l"
+  "/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l"
+  "/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/srv/convert_to_quaternion_srv.l"
   "CMakeFiles/imu_driver_generate_messages_eus"
 )
 

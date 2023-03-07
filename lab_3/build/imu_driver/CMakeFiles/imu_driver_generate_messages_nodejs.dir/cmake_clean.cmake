@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cracker/EECE5554/lab_3/devel/share/gennodejs/ros/imu_driver/msg/imu_msg.js"
+  "/home/cracker/EECE5554/lab_3/devel/share/gennodejs/ros/imu_driver/msg/Vectornav.js"
+  "/home/cracker/EECE5554/lab_3/devel/share/gennodejs/ros/imu_driver/srv/convert_to_quaternion_srv.js"
   "CMakeFiles/imu_driver_generate_messages_nodejs"
 )
 

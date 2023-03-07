@@ -53,17 +53,28 @@ CMAKE_BINARY_DIR = /home/cracker/EECE5554/lab_3/build
 # Include the progress variables for this target.
 include imu_driver/CMakeFiles/imu_driver_generate_messages_lisp.dir/progress.make
 
-imu_driver/CMakeFiles/imu_driver_generate_messages_lisp: /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/imu_msg.lisp
+imu_driver/CMakeFiles/imu_driver_generate_messages_lisp: /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp
+imu_driver/CMakeFiles/imu_driver_generate_messages_lisp: /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/srv/convert_to_quaternion_srv.lisp
 
 
-/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/imu_msg.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/imu_msg.lisp: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg
-/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/imu_msg.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from imu_driver/imu_msg.msg"
-	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /opt/ros/noetic/share/sensor_msgs/msg/MagneticField.msg
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /opt/ros/noetic/share/sensor_msgs/msg/Imu.msg
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from imu_driver/Vectornav.msg"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg
+
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/srv/convert_to_quaternion_srv.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/srv/convert_to_quaternion_srv.lisp: /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from imu_driver/convert_to_quaternion_srv.srv"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/srv
 
 imu_driver_generate_messages_lisp: imu_driver/CMakeFiles/imu_driver_generate_messages_lisp
-imu_driver_generate_messages_lisp: /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/imu_msg.lisp
+imu_driver_generate_messages_lisp: /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp
+imu_driver_generate_messages_lisp: /home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/srv/convert_to_quaternion_srv.lisp
 imu_driver_generate_messages_lisp: imu_driver/CMakeFiles/imu_driver_generate_messages_lisp.dir/build.make
 
 .PHONY : imu_driver_generate_messages_lisp

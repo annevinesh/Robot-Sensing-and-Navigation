@@ -53,22 +53,33 @@ CMAKE_BINARY_DIR = /home/cracker/EECE5554/lab_3/build
 # Include the progress variables for this target.
 include imu_driver/CMakeFiles/imu_driver_generate_messages_eus.dir/progress.make
 
-imu_driver/CMakeFiles/imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/imu_msg.l
+imu_driver/CMakeFiles/imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l
+imu_driver/CMakeFiles/imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/srv/convert_to_quaternion_srv.l
 imu_driver/CMakeFiles/imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/manifest.l
 
 
-/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/imu_msg.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/imu_msg.l: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg
-/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/imu_msg.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from imu_driver/imu_msg.msg"
-	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /opt/ros/noetic/share/sensor_msgs/msg/MagneticField.msg
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /opt/ros/noetic/share/sensor_msgs/msg/Imu.msg
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from imu_driver/Vectornav.msg"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg
+
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/srv/convert_to_quaternion_srv.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/srv/convert_to_quaternion_srv.l: /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from imu_driver/convert_to_quaternion_srv.srv"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/srv
 
 /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for imu_driver"
-	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver imu_driver std_msgs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for imu_driver"
+	cd /home/cracker/EECE5554/lab_3/build/imu_driver && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver imu_driver std_msgs sensor_msgs
 
 imu_driver_generate_messages_eus: imu_driver/CMakeFiles/imu_driver_generate_messages_eus
-imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/imu_msg.l
+imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/msg/Vectornav.l
+imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/srv/convert_to_quaternion_srv.l
 imu_driver_generate_messages_eus: /home/cracker/EECE5554/lab_3/devel/share/roseus/ros/imu_driver/manifest.l
 imu_driver_generate_messages_eus: imu_driver/CMakeFiles/imu_driver_generate_messages_eus.dir/build.make
 

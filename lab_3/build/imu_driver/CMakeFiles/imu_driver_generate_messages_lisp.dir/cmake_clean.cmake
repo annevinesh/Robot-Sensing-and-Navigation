@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/imu_msg.lisp"
+  "/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/msg/Vectornav.lisp"
+  "/home/cracker/EECE5554/lab_3/devel/share/common-lisp/ros/imu_driver/srv/convert_to_quaternion_srv.lisp"
   "CMakeFiles/imu_driver_generate_messages_lisp"
 )
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h"
+  "/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h"
+  "/home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h"
   "CMakeFiles/imu_driver_generate_messages_cpp"
 )
 

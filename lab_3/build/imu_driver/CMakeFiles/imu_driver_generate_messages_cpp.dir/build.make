@@ -53,18 +53,31 @@ CMAKE_BINARY_DIR = /home/cracker/EECE5554/lab_3/build
 # Include the progress variables for this target.
 include imu_driver/CMakeFiles/imu_driver_generate_messages_cpp.dir/progress.make
 
-imu_driver/CMakeFiles/imu_driver_generate_messages_cpp: /home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h
+imu_driver/CMakeFiles/imu_driver_generate_messages_cpp: /home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h
+imu_driver/CMakeFiles/imu_driver_generate_messages_cpp: /home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h
 
 
-/home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg
-/home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from imu_driver/imu_msg.msg"
-	cd /home/cracker/EECE5554/lab_3/src/imu_driver && /home/cracker/EECE5554/lab_3/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/imu_msg.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/include/imu_driver -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/share/sensor_msgs/msg/MagneticField.msg
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/share/sensor_msgs/msg/Imu.msg
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from imu_driver/Vectornav.msg"
+	cd /home/cracker/EECE5554/lab_3/src/imu_driver && /home/cracker/EECE5554/lab_3/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cracker/EECE5554/lab_3/src/imu_driver/msg/Vectornav.msg -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/include/imu_driver -e /opt/ros/noetic/share/gencpp/cmake/..
+
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h: /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cracker/EECE5554/lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from imu_driver/convert_to_quaternion_srv.srv"
+	cd /home/cracker/EECE5554/lab_3/src/imu_driver && /home/cracker/EECE5554/lab_3/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/cracker/EECE5554/lab_3/src/imu_driver/srv/convert_to_quaternion_srv.srv -Iimu_driver:/home/cracker/EECE5554/lab_3/src/imu_driver/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p imu_driver -o /home/cracker/EECE5554/lab_3/devel/include/imu_driver -e /opt/ros/noetic/share/gencpp/cmake/..
 
 imu_driver_generate_messages_cpp: imu_driver/CMakeFiles/imu_driver_generate_messages_cpp
-imu_driver_generate_messages_cpp: /home/cracker/EECE5554/lab_3/devel/include/imu_driver/imu_msg.h
+imu_driver_generate_messages_cpp: /home/cracker/EECE5554/lab_3/devel/include/imu_driver/Vectornav.h
+imu_driver_generate_messages_cpp: /home/cracker/EECE5554/lab_3/devel/include/imu_driver/convert_to_quaternion_srv.h
 imu_driver_generate_messages_cpp: imu_driver/CMakeFiles/imu_driver_generate_messages_cpp.dir/build.make
 
 .PHONY : imu_driver_generate_messages_cpp
