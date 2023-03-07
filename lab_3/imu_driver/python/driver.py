@@ -5,7 +5,6 @@ import numpy as np
 from cmath import pi
 from imu_driver.msg import Vectornav
 from std_msgs.msg import String
-#CODE
 def imu_code():
     Data = Vectornav()
     Data.Header.frame_id = 'imu1_frame'
