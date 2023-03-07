@@ -55,11 +55,11 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  convert_to_quaternion_srv.srv
+#add_service_files(
+#  FILES
+#  convert_to_quaternion_srv.srv
 #   Service2.srv
-)
+#)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -162,7 +162,7 @@ include_directories(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
-  python/driver.py python/convert_to_quaternion.py
+  python/driver.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
