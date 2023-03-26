@@ -1,0 +1,6 @@
+<launch>
+        <arg name="port1"/> 
+        <arg name="port2"/> 
+        <node name="driver1" pkg="fused_driver" type="driver1.py" args="$(arg port1)" output="screen" />
+        <node name="driver3" pkg="fused_driver" type="driver3.py" args="$(arg port2)" output="screen" />
+</launch>
